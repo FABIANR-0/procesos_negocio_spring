@@ -64,6 +64,7 @@ public class UsuarioController {
             return usuarioBD;
         }catch (Exception e){
             return null;
+
         }
     }
     @DeleteMapping (value = "/usuario/{id}")
