@@ -14,4 +14,6 @@ public interface UsuarioService {
     ResponseEntity<List<Usuario>> allUsersByLastName(String apellidos);
     ResponseEntity<Usuario> editUser(Long id, Usuario usuario);
     ResponseEntity<Usuario> deleteUser(Long id);
+
+    ResponseEntity login(String correo,String password);
 }
